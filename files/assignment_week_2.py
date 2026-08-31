@@ -18,11 +18,11 @@
 #base function 
 def convert_milk_yield(value):
     """
-    Descrition: 
+    Descrition: converts milk yield from pounds to kilograms. 
     input:
     output: 
     """
-    return 
+    return value * 0.45359237
 
 #Step 4: Commit your changes to the new branch and push it to the remote repository.
 
