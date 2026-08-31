@@ -22,7 +22,7 @@ def convert_milk_yield(value):
     input:
     output: 
     """
-    return value
+    return value * 2.20462
 
 #Step 4: Commit your changes to the new branch and push it to the remote repository.
 
