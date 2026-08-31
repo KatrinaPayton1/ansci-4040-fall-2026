@@ -16,13 +16,21 @@
 #Include documentation with your written function in the functions docstring. 
 
 #base function 
-def convert_milk_yield(value):
+def convert_milk_yield_lbs_to_kg(value):
     """
     Descrition: converts milk yield from pounds to kilograms. 
     input:
     output: 
     """
     return value * 0.45359237
+
+def convert_milk_yield_kg_to_lbs(value):
+    """
+    Descrition: converts milk yield from kilograms to pounds. 
+    input:
+    output: 
+    """
+    return value * 2.20462
 
 #Step 4: Commit your changes to the new branch and push it to the remote repository.
 
