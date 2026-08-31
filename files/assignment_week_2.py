@@ -14,29 +14,25 @@
 
 #Step 3: Change the following function so it converts milk yield from pounds to kilograms.
 #Include documentation with your written function in the functions docstring. 
+# safe the file
 
 #base function 
-def convert_milk_yield_lbs_to_kg(value):
+def convert_milk_yield(value):
     """
-    Descrition: convert kg to pounds
+    Descrition: 
     input:
     output: 
     """
-    return value * 2.20462
+    return 
 
-def convert_milk_yield_kg_to_lbs(value):
-    """
-    Descrition: converts milk yield from kilograms to pounds. 
-    input:
-    output: 
-    """
-    return value * 2.20462
 
-#Step 4: Commit your changes to the new branch and push it to the remote repository.
+#Step 4: Commit your changes to the new branch and push it to the remote repository. 
+# Make sure each step to push to your fork and not the original repo.
 
 #Step 5: Switch back to the main branch, but do not merge the changes from the "milk_yield_conversion" branch yet! 
 
 #Step 6: On the main branch, create a new function also called "convert_milk_yield" that converts milk yield from kilograms to pounds.
+# Save your change. 
 
 #Step 7: Commit your changes to the main branch and push it to the remote repository.
 
@@ -44,9 +40,12 @@ def convert_milk_yield_kg_to_lbs(value):
 
 #Step 9: Resolve any merge conflicts that arise during the merge process by keeping only the changes from main. 
 
-#Step 10: Go back to the milk_conversion_branch and change the name of the function to "convert_milk_yield" and update the docstring accordingly.
+#Step 10: Go back to the milk_conversion_branch.
+# Instead of changing the function make a new function called "convert_milk_yield_kg_to_lbs"
+# safe changes and commit the changes to the milk_conversion_branch.
 
-#Step 11: Push the changes to the remote repository and verify that the merge was successful by checking the main branch for both functions.
+#Step 11: Switch back to the main branch and merge the "milk_yield_conversion" branch into the main branch.
+# Push the changes to the remote repository and verify that the merge was successful by checking the main branch for both functions.
 
 #Step 12: Submit the link to your forked repository on GitHub for review on Canvas. 
 
